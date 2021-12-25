@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./images/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <title>Santheesh A | Full Stack Developer</title>
+    <style>
+      .bg-color{
+        background-color: aquamarine;
+      }
+      .preloader {
+        display: flex;
+        margin-top: 200px;
+        justify-content: center;
+      }
+      .rotate {
+        animation: rotation 1s infinite linear;
+      }
+  
+      .loader-hide {
+        display: none;
+      }
+  
+      @keyframes rotation {
+
+        from {
+          opacity: 2;
+        }
+  
+        to {
+          opacity: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+      <div class="preloader">
+        <img src="%PUBLIC_URL%/images/logo.png" alt="image" class="rotate" width="150" height="150" />
+      </div>
+    <div id="root">
+      
+    </div>
+  </body>
+</html>
